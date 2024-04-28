@@ -1,0 +1,25 @@
+.top-nav-container {
+  position:fixed;  /*화면을 기준으로*/
+  top:0;  /*위를 기준으로*/
+  z-index: 5;
+  width:100%;
+  text-align:center;
+  background:black;
+  color:white;
+}
+
+.scroll-progress-tracking {
+  width:100%;
+  height:10px;
+  background:rgb(216, 240, 169);
+}
+
+.current-progress-bar {
+  height:10px;
+  background:yellowgreen;
+  width:0%;
+}
+
+.data-list {
+  margin-top:100px;
+}
